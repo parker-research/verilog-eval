@@ -1,0 +1,6 @@
+module top_module(
+	input clk,
+	input resetn,
+	input [1:0] byteena,
+	input [15:0] d,
+	output reg [15:0] q);

@@ -1,0 +1,8 @@
+module top_module(
+	input wire clk,
+	input wire reset,
+	input wire data,
+    output wire [3:0] count,
+    output reg counting,
+    output reg done,
+    input wire ack );
